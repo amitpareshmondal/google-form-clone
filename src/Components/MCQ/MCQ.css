@@ -1,0 +1,24 @@
+.MCQ{
+    height: 100px;
+    width: 45vw;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.MCQ > label{
+    color: #61677A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1240px) {
+    .MCQ {
+      width: 85% !important;
+    }
+  }

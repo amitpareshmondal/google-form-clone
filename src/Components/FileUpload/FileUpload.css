@@ -1,0 +1,37 @@
+.DropDown{
+    height: 140px;
+    width: 45vw;
+    border-radius: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 16px;
+    color: #1A73E8;
+    border: 1px solid #D8D9DA;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}

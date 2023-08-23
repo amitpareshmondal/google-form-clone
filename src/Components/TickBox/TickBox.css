@@ -1,0 +1,36 @@
+.TickBox{
+    height: 300px;
+    width: 45vw;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.TickBox > .Col{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-left: 300px;
+}
+@media only screen and (max-width: 1240px) {
+    .TickBox {
+      width: 85%;
+    }
+  
+  }
+  @media only screen and (max-width: 716px) {
+    .TickBox{
+        height: auto;
+    }
+    .TickBox > .Col{
+        margin-left: 25%;
+        font-size: 12px;
+    }
+  }

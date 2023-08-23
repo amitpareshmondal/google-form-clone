@@ -1,0 +1,42 @@
+.LinearNumbers{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 105px;
+}
+.Linear-Row{
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+
+}
+.LinearScale{
+    height: 180px;
+    width: 45vw;
+    border-radius: 10px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    
+}
+.Linear-Items{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+@media only screen and (max-width: 1240px) {
+    .LinearScale {
+      width: 85%;
+    }
+    .Linear-Row{
+        
+        gap: 4%;
+    }
+    .LinearNumbers{
+        
+        gap: 5%;
+    }
+  }

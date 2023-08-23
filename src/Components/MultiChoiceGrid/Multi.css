@@ -1,0 +1,66 @@
+.Multi{
+    height: 300px;
+    width: 45vw;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.Multi > .Col{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-left: 300px;
+}
+.Row1 > .Buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    background-color: #f8f9fa;
+    height: 50px;
+}
+.Row1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.Buttons > span {
+    padding-top: 15px;
+    padding-left: 15px;
+   
+}
+@media only screen and (max-width: 1240px) {
+    .Multi{
+        width: 85%;
+    }
+  }
+  @media only screen and (max-width: 716px) {
+    .Multi > .Col{
+        margin-left: 25%;
+        font-size: 12px;
+    }
+    .Buttons > span{
+        margin-right: 0% !important;
+        font-size: 12px !important;
+    }
+    .Multi > .Row1{
+        overflow-x: scroll;
+    }
+    .Buttons{
+        gap: 15%  !important;
+    }
+  }
+  @media only screen and (max-width: 716px) {
+    .Multi{
+        height: auto;
+    }
+  }

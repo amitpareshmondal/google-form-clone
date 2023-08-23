@@ -1,0 +1,18 @@
+.CheckBox{
+    height: 100px;
+    width: 45vw;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   box-sizing: border-box;
+   padding: 25px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+.CheckBox > label{
+    color: #61677A;
+    font-family: Arial, Helvetica, sans-serif;
+}
